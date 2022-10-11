@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    <link rel="stylesheet" href="jarditou_css/assets/css/style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <div class="Présentation">
+            <img src="jarditou_css/src/img/jarditou_logo.jpg" width="300" alt="logo jarditou" title="logo" class="Logo1">
+            <h1 id="Titre">Tout le jardin</h1>
+        </div>
+    </header>
+    <nav class="nav1">
+        <ul>
+            <li><a href="index.html"> Accueil</a></li>
+            <li><a href="tableau.html"> Tableau</a></li>
+            <li><a href="contact.html"> Contact</a></li>
+        </ul>
+    </nav>
+    <img src="jarditou_css/src/img/promotion.jpg" alt="logo promotion" title="logo2" class="Logo2">
+    <br>
+    <br>
+    <h3>Contact</h3>
+    <form action="http://bienvu.net/script.php" method="get">
+        
+            <br>
+            <p>*Ces zones sont obligatoires</p>
+            <br>
+        <fieldset>
+            <legend>Vos coordonnées</legend>
+            <label for="Votre_nom"> Votre nom* :</label><input type="text" name="Votre nom*" id="Votre_nom"><br>
+            <label for="Votre_prénom">Votre prénom* :</label><input type="text" name="Votre prénom*" id="Votre_prénom"><br>
+            <br>
+            <br>
+                 <label for="Sexe">Sexe* :</label><input type="radio" name="Sexe" value="Masculin" id="Sexe"> Masculin
+                 <input type="radio" name="Sexe" value="Féminin"> Féminin
+                    <br>
+                    <br>
+                    <label for="date">Date de naissance: </label><input type="date" name="ddn" id="date"><br>
+                    <label for="Code_postal">Code postal*: </label><input type="text" name="Code postal*" id="Code_postal"><br>
+                    <label for="Adresse">Adresse: </label><input type="text" name="Adresse" id="Adresse"><br>
+                    <label for="Ville">Ville: </label><input type="text" name="Ville" id="Ville"><br>
+                    <label for="Email">Email*: </label><input type="text" name="Email*" id="Email"><br>
+        </fieldset>
+                            <fieldset>
+                                <legend>Votre demande</legend>
+                                    <label for="Sujet">Sujet*: </label>
+                                        <select  id="Sujet">
+                                            <option value="">-</option>
+                                            <option value="Mes commandes">Mes commandes</option>
+                                            <option value="Question sur un produit">Question sur un produit</option>
+                                            <option value="Réclamation">Réclamation</option>
+                                            <option value="Autres">Autres</option>
+                                        </select>
+                                        <br>
+                                            <label for="Votre_question*">Votre question*: </label>
+                                            <textarea name="Votre_question*" rows="1" cols="40" id="Votre_question*"></textarea>
+                            </fieldset>
+                            <br>
+                        <input type="checkbox" name="choix unique" value="* J'accepte le traitement informatique de ce formulaire"> 
+                        * J'accepte le traitement informatique de ce formulaire
+                        <br>
+                        <br>
+                        <input type="submit">
+                        <button>Annuler</button>
+                   
+                </form>
+    <footer class="nav1">
+        
+        <div class="nav2">
+            <ul>
+                <!-- entourer les liens par des balises <a> en mettant # dans le href -->
+                <li><a href="#">Mention légales</a></li>
+                <li><a href="#">Horaires</a></li>
+                <li><a href="#">Plan du site</a></li>
+            </ul>
+        </div>
+            
+    </footer>
+                
+</body>
+</html>
